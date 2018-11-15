@@ -31,6 +31,16 @@ body {
     background-color: #FC4A1A;
 }
 
+/* Line Up Images */
+
+.row > div:hover {
+    transform: scale(1.05);
+}
+
+.row > div {
+    transition: all 1s ease 0s;
+}
+
 /* Buttons */
 
 .btn-primary:hover {
