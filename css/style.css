@@ -33,11 +33,11 @@ body {
 
 /* Line Up Images */
 
-.row > div:hover {
-    transform: scale(1.05);
+.lineup > div:hover {
+    transform: scale(1.25);
 }
 
-.row > div {
+.lineup > div {
     transition: all 1s ease 0s;
 }
 
