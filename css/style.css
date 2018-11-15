@@ -13,6 +13,10 @@ body {
 /* Nav Styles/Transition */
 
 .nav-item {
+    margin-right: 3px;
+}
+
+.nav-item {
 	-webkit-transition-property: background;
     -moz-transition-property: background;
     -o-transition-property: background;
