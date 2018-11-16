@@ -10,6 +10,18 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+a[href="index.html"] {
+    font-size: 1.5rem; 
+}
+
+p:first-child {
+    font-size: 1.1rem;
+} 
+
+.breadcrumb-item {
+    font-size: 1.5rem;
+}
+
 /* Media Queries */
 
 /* Phones */
