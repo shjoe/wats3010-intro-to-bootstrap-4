@@ -10,6 +10,32 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+/* Media Queries */
+
+/* Phones */
+
+@media (min-width: 320px) {
+    body {
+        background-color: #CDD7D6;
+    }
+}
+
+/* Tablet Portrait*/
+
+@media (min-width: 600px) {
+    body {
+        background-color: #F0EC57;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+    body {
+        background-color: white;
+    }
+}
+
 /* Nav Styles/Transition */
 
 .nav-item {
@@ -33,6 +59,13 @@ body {
 
 .nav-item:hover {
     background-color: #FC4A1A;
+}
+
+/* Index Images */
+
+.carousel-item {
+    height: 300px;
+    width: auto;
 }
 
 /* Line Up Images */
@@ -86,4 +119,14 @@ body {
 
 .footer-item-flex {
     flex: 0 1 auto;
+}
+
+/* Twitch Embed */
+
+iframe {
+    min-height: 320px
+}
+
+.img-card-top {
+    max-width: 320px;
 }
