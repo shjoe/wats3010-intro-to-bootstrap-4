@@ -22,6 +22,21 @@ p:first-child {
     font-size: 1.5rem;
 }
 
+.game-lineup li:first-child {
+    font-weight: bold;
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: #FC4A1A;}
+    to {color: black;}
+}
+
 /* Media Queries */
 
 /* Phones */
